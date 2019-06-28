@@ -7,4 +7,4 @@ img_gauss = imgaussfilt(img, 1);
 otsu_threshold = graythresh(img);
 img_otsu = imbinarize(img, otsu_threshold);
 
-imshow(img_otsu, []);
+imshow(img_otsu);
